@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&family=Roboto:wght@100& display = swap');@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Slab', Roboto, Helvetica, sans-serif;
+}   
+/* FIGURINHA ZEPLIN */
+
+#zeplin {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+
+#jobZeplin {
+    font-family: Roboto;
+    line-height: 19px;
+    font-size: 16px;
+    margin-right: 6px;
+    color: #979197;
+}
+
+#imgZeplin {
+    width: 30px;
+    height: 24px;
+}
+
+
+/* CABEÇALHO */
+header {
+    height: 80px;
+    width: 1040px;
+    margin: 130px auto;
+}
+
+main {
+    width: 1040px;
+    margin: 130px auto;
+}
+/* Bloco com Título, web (twt e FB) */
+.container {
+    width: 1040px;
+    height: 96px;
+    margin: -70px auto;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: baseline;
+}
+
+.test {
+    
+    grid-column: 1 / 3;
+    line-height: 63px;
+    font-weight: 300;
+    font-size: 48px;
+    color: #554D56;
+}
+
+.web {  
+    margin-top: 10px;
+    font-size: 18px;
+    grid-row: 2 / 3;
+    line-height: 21px;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #554D56;
+}
+
+#redes {
+    grid-column: 3 / 4;
+   align-items: center;
+}
+
+.twit {
+    margin-right: 20px;
+}
+
+.face {
+    height: 30px;
+}
+
+h3 {
+    width: 1040px;
+    margin: auto;
+    color: #979197;
+    font: 18px;
+    
+}
+
+/* PALETA DE CORES */
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1040px;
+    margin: 45px auto;
+}
+
+section {
+    display: flex;
+    width: 260px;
+    height: 102px;
+}
+
+.nameColor {
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+    margin-bottom: 8px;
+    color: #554d56;
+}
+
+.colorHex {
+    color: #979197;
+    font-size: 16px;
+}
+
+.colorRgb {
+    color: #979197;
+    font-size: 14px;
+}
+
+/* COLOR FORMS */
+
+/* Todas os círculos com os mesmos atribuos */
+#rustyOrange, #slateGrey, #brownishGrey, #warmGrey, #white, #paleGrey, #whiteTwo, #slateGreyTwo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; 
+    margin-right: 18px;
+}
+
+/* Somente a troca das cores */
+#rustyOrange {
+    background-color: #E36209;
+} 
+
+#slateGrey {
+    background-color: #5C646D;
+}
+
+#brownishGrey {
+    background-color: #666666;
+}
+
+#warmGrey {
+    background-color: #999999;
+}
+
+#white {
+    background-color: #FFFFFF;
+    border: 2px solid rgba(0, 0, 0, 0.15);
+}
+
+#paleGrey {
+    background-color: #E1E4E8;
+}
+
+#whiteTwo {
+    background-color: #E3E3E3;
+}
+
+#slateGreyTwo {
+    background-color: #586069;
+}
+
+/* TEXT STYLE CATALOG */
+
+#textStyleCatalog {
+    width: 1040px;
+    text-align: start;
+    margin: 72px auto 48px;
+    font-weight: 700;
+}
+
+#fontBook {
+    width: 1040px;
+    height: 76px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.font {
+    width: 520px;
+    height: 76px;
+    margin: auto;
+    display: grid;
+}
+/* Text Style */
+.fontName {
+    font-family: Roboto;
+    width: 472px;
+    height: 28px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #554D56;
+}
+.fontStyleDetail {
+    font-family: 'Roboto';
+    color: #554D56;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 700;
+}
+/* Text Style 2 */
+.fontName2 {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    color: #554D56;
+}
+.mainInfo {
+    font-size: 15px;
+    font-weight: 400px;
+    line-height: 15px;
+    color: #554D56;
+}
+
+/* DESIGNS */
+
+/* Todo o bloco */
+
+#allDesign {
+    
+    width: 1040px;
+    margin: 20px auto;
+    display: block;
+}
+
+#design {
+    margin-top: 70px;
+}
+
+/* Botão de seta */
+.sectionCollapser {
+    display: block;
+    padding-bottom: 30px;
+    font-size: 24px;
+    color: #554D56;
+    cursor: pointer;
+}
+
+/* Bloco Desktop */
+.github1 {
+    display: block;
+    width: 1040px;
+    height: 325px;
+    margin: 72px 0px 36px 0px;
+    
+
+}
+/* Bloco Tablet */
+.github2 {
+    display: block;
+    width: 1040px;
+    height: 400px;
+    margin: 72px 0px 36px 0px;
+
+}
+/* Bloco Mobile */
+.github3 {
+    display: block;
+    width: 1040px;
+    height: 325px;
+    margin: 72px 0px 36px 0px;
+
+}
+
+.screensMobile {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-top: 24px;    
+}
+
+.screen {
+    display: block;
+}
+.screens {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-top: 24px;
+    
+}
+.screenInfo {
+    display: flex;
+    justify-content: space-between;
+    width: 375px;
+}
+
+/* Curtidas */
+
+.likeCount {
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto';
+    color: #EE6723;
+    padding-right: 5px;
+}
+.screenName {
+    font-family: 'Roboto';
+    color: #5C646D;
+    font: caption;
+    font-size: 14px;
+}
+.screenLikes {
+    display: flex;
+    align-items: center;
+    width: 90px;
+    height: 20px;
+}
+
+.likeScreenButton {
+    background-color: transparent;
+    background-image: none;
+    border-style: none;
+}
+.sectionName {
+    font-family: 'Roboto';
+    align-items: baseline;
+    font-size: 14px;
+    line-height: 16px;
+    color: #554D56;
+}
+
+.sectionHeader {    
+    width: 1040px;
+    height: 32px;
+    display: block;
+}
+
+
